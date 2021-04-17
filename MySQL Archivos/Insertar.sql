@@ -11,7 +11,10 @@ insert into profile(profile_id, name) values (2, 'Cliente');
 
 -- user
 insert into user (user_id, name, email, create_at, password, profile_id)
-  values (1, 'Julio Martínez', 'julio.martinez@iudigital.edu.co', now(), '555555', 1);
+  values (1, 'Jhon Fredy', 'jhon.valencia@iudigital.edu.co', now(), '123456', 1);
 
 insert into user (user_id, name, email, create_at, password, profile_id)
-  values (2, 'Adriana Aguilar', 'adriana.a@iudigital.edu.co', now(), '123456', 2);
+  values (2, 'Juan Fernando', 'juan.f@iudigital.edu.co', now(), '987654', 2);
+
+insert into user (user_id, name, email, create_at, password, profile_id)
+  values (2, 'Jose Manuel', 'jose.m@iudigital.edu.co', now(), '444444', 3);
