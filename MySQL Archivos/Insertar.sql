@@ -17,4 +17,4 @@ insert into user (user_id, name, email, create_at, password, profile_id)
   values (2, 'Juan Fernando', 'juan.f@iudigital.edu.co', now(), '987654', 2);
 
 insert into user (user_id, name, email, create_at, password, profile_id)
-  values (2, 'Jose Manuel', 'jose.m@iudigital.edu.co', now(), '444444', 3);
+  values (3, 'Jose Manuel', 'jose.m@iudigital.edu.co', now(), '444444', 2);
